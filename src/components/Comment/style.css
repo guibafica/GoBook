@@ -1,0 +1,25 @@
+.comment {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.comment:last-child {
+  margin-bottom: 0;
+}
+
+.comment img.avatar {
+  align-self: flex-start;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+}
+
+.comment p.text {
+  margin-left: 10px;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 20px;
+  background-color: #EEEEEE;
+  padding: 12px;
+  border-radius: 20px;
+}
